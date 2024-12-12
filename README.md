@@ -15,7 +15,7 @@ Kuaför müşterileri, kuaför çalışanlarının hizmet sürelerini ve bu hizm
 Bu uygulamayla beraber müşterilere bir yapay zeka entegrasyonuyla beraber karar verme sürecinde yardımcı olunacaktır.
 
 ## Yazar
-- [@kullanıcıismi](https://www.github.com/kullanıcıismi)
+- [@nefiseT](https://github.com/nefiseT)
 - [@muhammedcetinn](https://www.github.com/muhammedcetinn)
 
 
