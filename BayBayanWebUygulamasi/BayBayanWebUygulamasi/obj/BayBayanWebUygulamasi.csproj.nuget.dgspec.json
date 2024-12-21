@@ -1,17 +1,92 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\me_ct\\OneDrive\\Belgeler\\GitHub\\nefise\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi.csproj": {}
+    "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\me_ct\\OneDrive\\Belgeler\\GitHub\\nefise\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi.csproj": {
+    "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\me_ct\\OneDrive\\Belgeler\\GitHub\\nefise\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi.csproj",
+        "projectUniqueName": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi.csproj",
         "projectName": "BayBayanWebUygulamasi",
-        "projectPath": "C:\\Users\\me_ct\\OneDrive\\Belgeler\\GitHub\\nefise\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi.csproj",
+        "projectPath": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi.csproj",
         "packagesPath": "C:\\Users\\me_ct\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\me_ct\\OneDrive\\Belgeler\\GitHub\\nefise\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\obj\\",
+        "outputPath": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\me_ct\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\DataAccessLayer\\DataAccessLayer.csproj"
+              },
+              "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\ServiceLayer\\ServiceLayer.csproj": {
+                "projectPath": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\ServiceLayer\\ServiceLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\CoreLayer\\CoreLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\CoreLayer\\CoreLayer.csproj",
+        "projectName": "CoreLayer",
+        "projectPath": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\CoreLayer\\CoreLayer.csproj",
+        "packagesPath": "C:\\Users\\me_ct\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\CoreLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -42,7 +117,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
         "SdkAnalysisLevel": "9.0.100"
       },
@@ -61,14 +136,262 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\DataAccessLayer\\DataAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectName": "DataAccessLayer",
+        "projectPath": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\DataAccessLayer\\DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\me_ct\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\DataAccessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\me_ct\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\EntityLayer\\EntityLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\EntityLayer\\EntityLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\EntityLayer\\EntityLayer.csproj",
+        "projectName": "EntityLayer",
+        "projectPath": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\EntityLayer\\EntityLayer.csproj",
+        "packagesPath": "C:\\Users\\me_ct\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\EntityLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\me_ct\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\CoreLayer\\CoreLayer.csproj": {
+                "projectPath": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\CoreLayer\\CoreLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\ServiceLayer\\ServiceLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\ServiceLayer\\ServiceLayer.csproj",
+        "projectName": "ServiceLayer",
+        "projectPath": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\ServiceLayer\\ServiceLayer.csproj",
+        "packagesPath": "C:\\Users\\me_ct\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\ServiceLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\me_ct\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\DataAccessLayer\\DataAccessLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.11.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
