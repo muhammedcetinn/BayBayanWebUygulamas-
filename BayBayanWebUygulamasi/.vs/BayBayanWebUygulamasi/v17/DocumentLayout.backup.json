@@ -1,12 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\me_ct\\OneDrive\\Belgeler\\GitHub\\nefise\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Hp\\Documents\\GitHub\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6E8810D4-2B2E-4053-A8FD-B05B70800243}|EntityLayer\\EntityLayer.csproj|c:\\users\\hp\\documents\\github\\baybayanwebuygulamasi\\baybayanwebuygulamasi\\entitylayer\\entitylayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6E8810D4-2B2E-4053-A8FD-B05B70800243}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\entitylayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EntityLayer",
+              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\GitHub\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\EntityLayer\\EntityLayer.csproj",
+              "RelativeDocumentMoniker": "EntityLayer\\EntityLayer.csproj",
+              "ToolTip": "C:\\Users\\Hp\\Documents\\GitHub\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\EntityLayer\\EntityLayer.csproj",
+              "RelativeToolTip": "EntityLayer\\EntityLayer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-24T16:10:52.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

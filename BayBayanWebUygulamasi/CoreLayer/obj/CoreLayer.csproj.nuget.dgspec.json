@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\CoreLayer\\CoreLayer.csproj": {}
+    "C:\\Users\\Hp\\Documents\\GitHub\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\CoreLayer\\CoreLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\CoreLayer\\CoreLayer.csproj": {
+    "C:\\Users\\Hp\\Documents\\GitHub\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\CoreLayer\\CoreLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\CoreLayer\\CoreLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Hp\\Documents\\GitHub\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\CoreLayer\\CoreLayer.csproj",
         "projectName": "CoreLayer",
-        "projectPath": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\CoreLayer\\CoreLayer.csproj",
-        "packagesPath": "C:\\Users\\me_ct\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\CoreLayer\\obj\\",
+        "projectPath": "C:\\Users\\Hp\\Documents\\GitHub\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\CoreLayer\\CoreLayer.csproj",
+        "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hp\\Documents\\GitHub\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\CoreLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\me_ct\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
