@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QcAgBNQUe0s=",
+  "dgSpecHash": "C3vHPpxxVOU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\ServiceLayer\\ServiceLayer.csproj",
+  "projectFilePath": "C:\\Users\\me_ct\\OneDrive\\Belgeler\\GitHub\\deneme\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\ServiceLayer\\ServiceLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\me_ct\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\me_ct\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
