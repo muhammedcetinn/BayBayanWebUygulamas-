@@ -9,7 +9,7 @@ using static System.Net.Mime.MediaTypeNames;
 
 namespace EntityLayer.Entities
 {
-    public class AppUser : IdentityUser<Guid>, IEntityBase
+    public class AppUser : IdentityUser
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }

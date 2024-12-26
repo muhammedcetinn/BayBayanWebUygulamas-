@@ -1,8 +1,11 @@
-﻿using FluentValidation.AspNetCore;
+﻿using FluentValidation;
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 using Microsoft.Extensions.DependencyInjection;
 using ServiceLayer.FluentValidations;
+using ServiceLayer.Services.Abstracts;
+using ServiceLayer.Services.Concretes;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -19,20 +22,14 @@ namespace ServiceLayer.Extensions
         {
             var assembly = Assembly.GetExecutingAssembly();
 
-            //services.AddScoped<IArticleService, ArticleService>();
+            services.AddScoped<ICoiffeurService, CoiffeurService>();
 
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
-            //services.AddAutoMapper(assembly);
+            services.AddAutoMapper(assembly);
 
-            
-            services.AddControllersWithViews()
-                .AddFluentValidation(opt =>
-                {
-                    opt.RegisterValidatorsFromAssemblyContaining<CoiffeurValidator>();
-                    opt.DisableDataAnnotationsValidation = true;
-                    opt.ValidatorOptions.LanguageManager.Culture = new CultureInfo("tr");
-                });
+            // FluentValidation hizmetlerini ekleyin
+            services.AddValidatorsFromAssemblyContaining<CoiffeurValidator>();
 
             return services;
         }

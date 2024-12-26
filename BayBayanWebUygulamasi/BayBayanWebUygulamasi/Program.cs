@@ -1,18 +1,18 @@
 using DataAccessLayer.Context;
 using DataAccessLayer.Extensions;
 using EntityLayer.Entities;
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Identity;
 using ServiceLayer.Describers;
 using ServiceLayer.Extensions;
+using System.Globalization;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-builder.Services.AddControllersWithViews();
 builder.Services.LoadDataLayerExtension(builder.Configuration);
 builder.Services.LoadServiceLayerExtension();
 builder.Services.AddSession();
-
+builder.Services.AddControllersWithViews();
 builder.Services.AddIdentity<AppUser, AppRole>(opt =>
 {
     opt.Password.RequireNonAlphanumeric = false;
@@ -23,7 +23,6 @@ builder.Services.AddIdentity<AppUser, AppRole>(opt =>
     .AddErrorDescriber<CustomIdentityErrorDescriber>()
     .AddEntityFrameworkStores<AppDbContext>()
     .AddDefaultTokenProviders();
-
 builder.Services.ConfigureApplicationCookie(config =>
 {
     config.LoginPath = new PathString("/Auth/Login");
@@ -53,11 +52,12 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseSession();
-
 app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
-
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");

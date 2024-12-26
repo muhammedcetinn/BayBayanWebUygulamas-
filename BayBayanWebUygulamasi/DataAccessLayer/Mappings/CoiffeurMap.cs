@@ -16,13 +16,16 @@ namespace DataAccessLayer.Mappings
             builder.HasData(new Coiffeur
             {
                 Id = 753159,
-                Gender = "Kadın"
+                Gender = "Kadın",
+                PhoneNumber = "",
+                Address = ""
             },
             new Coiffeur
             {
                 Id = 951357,
-                Gender = "Erkek"
-
+                Gender = "Erkek",
+                PhoneNumber = "",
+                Address = ""
             });
         }
     }

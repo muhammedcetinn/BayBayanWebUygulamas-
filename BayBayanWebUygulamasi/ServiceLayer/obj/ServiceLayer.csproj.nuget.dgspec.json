@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\me_ct\\OneDrive\\Belgeler\\GitHub\\deneme\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\ServiceLayer\\ServiceLayer.csproj": {}
+    "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\ServiceLayer\\ServiceLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\me_ct\\OneDrive\\Belgeler\\GitHub\\deneme\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\CoreLayer\\CoreLayer.csproj": {
+    "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\CoreLayer\\CoreLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\me_ct\\OneDrive\\Belgeler\\GitHub\\deneme\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\CoreLayer\\CoreLayer.csproj",
+        "projectUniqueName": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\CoreLayer\\CoreLayer.csproj",
         "projectName": "CoreLayer",
-        "projectPath": "C:\\Users\\me_ct\\OneDrive\\Belgeler\\GitHub\\deneme\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\CoreLayer\\CoreLayer.csproj",
+        "projectPath": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\CoreLayer\\CoreLayer.csproj",
         "packagesPath": "C:\\Users\\me_ct\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\me_ct\\OneDrive\\Belgeler\\GitHub\\deneme\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\CoreLayer\\obj\\",
+        "outputPath": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\CoreLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\me_ct\\OneDrive\\Belgeler\\GitHub\\deneme\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\me_ct\\OneDrive\\Belgeler\\GitHub\\deneme\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "C:\\Users\\me_ct\\OneDrive\\Belgeler\\GitHub\\deneme\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectPath": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\DataAccessLayer\\DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\me_ct\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\me_ct\\OneDrive\\Belgeler\\GitHub\\deneme\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\DataAccessLayer\\obj\\",
+        "outputPath": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -97,8 +97,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\me_ct\\OneDrive\\Belgeler\\GitHub\\deneme\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\me_ct\\OneDrive\\Belgeler\\GitHub\\deneme\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\EntityLayer\\EntityLayer.csproj"
+              "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -158,14 +158,14 @@
         }
       }
     },
-    "C:\\Users\\me_ct\\OneDrive\\Belgeler\\GitHub\\deneme\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\EntityLayer\\EntityLayer.csproj": {
+    "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\EntityLayer\\EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\me_ct\\OneDrive\\Belgeler\\GitHub\\deneme\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\EntityLayer\\EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\EntityLayer\\EntityLayer.csproj",
         "projectName": "EntityLayer",
-        "projectPath": "C:\\Users\\me_ct\\OneDrive\\Belgeler\\GitHub\\deneme\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\EntityLayer\\EntityLayer.csproj",
+        "projectPath": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\EntityLayer\\EntityLayer.csproj",
         "packagesPath": "C:\\Users\\me_ct\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\me_ct\\OneDrive\\Belgeler\\GitHub\\deneme\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\EntityLayer\\obj\\",
+        "outputPath": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -186,8 +186,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\me_ct\\OneDrive\\Belgeler\\GitHub\\deneme\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\CoreLayer\\CoreLayer.csproj": {
-                "projectPath": "C:\\Users\\me_ct\\OneDrive\\Belgeler\\GitHub\\deneme\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\CoreLayer\\CoreLayer.csproj"
+              "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\CoreLayer\\CoreLayer.csproj": {
+                "projectPath": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\CoreLayer\\CoreLayer.csproj"
               }
             }
           }
@@ -233,14 +233,14 @@
         }
       }
     },
-    "C:\\Users\\me_ct\\OneDrive\\Belgeler\\GitHub\\deneme\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\ServiceLayer\\ServiceLayer.csproj": {
+    "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\ServiceLayer\\ServiceLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\me_ct\\OneDrive\\Belgeler\\GitHub\\deneme\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\ServiceLayer\\ServiceLayer.csproj",
+        "projectUniqueName": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\ServiceLayer\\ServiceLayer.csproj",
         "projectName": "ServiceLayer",
-        "projectPath": "C:\\Users\\me_ct\\OneDrive\\Belgeler\\GitHub\\deneme\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\ServiceLayer\\ServiceLayer.csproj",
+        "projectPath": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\ServiceLayer\\ServiceLayer.csproj",
         "packagesPath": "C:\\Users\\me_ct\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\me_ct\\OneDrive\\Belgeler\\GitHub\\deneme\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\ServiceLayer\\obj\\",
+        "outputPath": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\ServiceLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -261,8 +261,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\me_ct\\OneDrive\\Belgeler\\GitHub\\deneme\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\me_ct\\OneDrive\\Belgeler\\GitHub\\deneme\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\DataAccessLayer\\DataAccessLayer.csproj"
+              "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\DataAccessLayer\\DataAccessLayer.csproj"
               }
             }
           }
@@ -286,10 +286,6 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[13.0.1, )"
-            },
-            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
-              "target": "Package",
-              "version": "[12.0.1, )"
             },
             "FluentValidation.AspNetCore": {
               "target": "Package",

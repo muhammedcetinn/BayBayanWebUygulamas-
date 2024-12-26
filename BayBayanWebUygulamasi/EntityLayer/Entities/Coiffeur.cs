@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EntityLayer.Entities
 {
-    public class Coiffeur : IEntityBase
+    public class Coiffeur
     {
         public int Id { get; set; }
         public string Gender { get; set; }

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace EntityLayer.Entities
 {
-    public class AppointmentDetail : IEntityBase
+    public class AppointmentDetail
     {
         [Key]
         public int Id { get; set; }

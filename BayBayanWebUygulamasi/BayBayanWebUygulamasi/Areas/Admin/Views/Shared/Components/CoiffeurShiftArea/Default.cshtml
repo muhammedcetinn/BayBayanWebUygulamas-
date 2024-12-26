@@ -1,0 +1,26 @@
+﻿@using EntityLayer.ViewModels.CoiffeurShift
+@model GetCoiffeurShiftViewModel
+@if (TempData["CoiffeurShift"] != null)
+{
+    <div class="p-3 bg-info">
+        @TempData["CoiffeurShift"]
+    </div>
+}
+<div asp-validation-summary="ModelOnly" class="p-2 bg-danger"></div>
+<form asp-area="Admin" asp-controller="Coiffeurs" asp-action="UpdateCoiffeurShift">
+    <input type="hidden" asp-for="Id" value="@Model.Id"/>
+    <input type="hidden" asp-for="CoiffeurId" value="@Model.CoiffeurId" />
+    <div class="mb-3">
+        <label asp-for="StartTime" class="form-label"></label>
+        <input asp-for="StartTime" class="form-control" type="time" />
+        <span asp-validation-for="StartTime" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="EndTime" class="form-label"></label>
+        <input asp-for="EndTime" class="form-control" type="time" />
+        <span asp-validation-for="EndTime" class="text-danger"></span>
+    </div>
+    <div>
+        <button type="submit" class="btn btn-primary form-control">Kaydet</button>
+    </div>
+</form>

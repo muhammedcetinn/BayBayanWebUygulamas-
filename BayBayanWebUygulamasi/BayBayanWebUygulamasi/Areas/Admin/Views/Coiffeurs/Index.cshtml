@@ -1,0 +1,16 @@
+﻿@using EntityLayer.ViewModels.Coiffeur
+@model List<GetCoiffeurViewModel>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<div class="d-flex">
+    @foreach(var coiffeur in Model){
+        <a asp-area="Admin" asp-controller="Coiffeurs" asp-action="Profile" asp-route-id="@coiffeur.Id">
+            <span>@coiffeur.Gender</span>
+            <span>@coiffeur.PhoneNumber</span>
+            <span>@coiffeur.Address</span>
+        </a>
+    }
+</div>
+

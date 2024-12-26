@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Repositories
 {
-    public class Repository<T> : IRepository<T> where T : class, IEntityBase, new()
+    public class Repository<T> : IRepository<T> where T : class, new()
     {
 
         private readonly AppDbContext dbContext;
@@ -46,7 +46,7 @@ namespace DataAccessLayer.Repositories
                 foreach (var item in includeProperties)
                     query = query.Include(item);
 
-            return await query.SingleAsync();
+            return await query.SingleOrDefaultAsync();
         }
 
         public async Task<T> GetByGuidAsync(Guid id)

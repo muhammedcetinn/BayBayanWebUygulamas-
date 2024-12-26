@@ -9,12 +9,13 @@ using System.Threading.Tasks;
 
 namespace EntityLayer.Entities
 {
-    public class Personnel : IEntityBase
+    public class Personnel
     {
         [Key,ForeignKey("AppUser")]
-        public string FullName { get; set; }
         public string AppUserId { get; set; }
         public AppUser AppUser { get; set; }
+        public string FullName { get; set; }
         public ICollection<PersonnelInfo> PersonnelInfos { get; set; }
+        public ICollection<PersonnelService> PersonnelServices { get; set; }
     }
 }

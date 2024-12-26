@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\me_ct\\OneDrive\\Belgeler\\GitHub\\deneme\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\CoreLayer\\CoreLayer.csproj",
+      "projectUniqueName": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\CoreLayer\\CoreLayer.csproj",
       "projectName": "CoreLayer",
-      "projectPath": "C:\\Users\\me_ct\\OneDrive\\Belgeler\\GitHub\\deneme\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\CoreLayer\\CoreLayer.csproj",
+      "projectPath": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\CoreLayer\\CoreLayer.csproj",
       "packagesPath": "C:\\Users\\me_ct\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\me_ct\\OneDrive\\Belgeler\\GitHub\\deneme\\BayBayanWebUygulamasi\\BayBayanWebUygulamasi\\CoreLayer\\obj\\",
+      "outputPath": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\BayBayanWebUygulamasi\\CoreLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EntityLayer.Entities
 {
-    public class AppUserClaim : IdentityUserClaim<Guid>
+    public class AppUserClaim : IdentityUserClaim<string>
     {
     }
 }

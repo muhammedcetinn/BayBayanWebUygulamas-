@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EntityLayer.Entities
 {
-    public class AppUserRole : IdentityUserRole<Guid>
+    public class AppUserRole : IdentityUserRole<string>
     {
     }
 }

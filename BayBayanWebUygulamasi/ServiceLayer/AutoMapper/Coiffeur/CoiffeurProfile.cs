@@ -1,4 +1,6 @@
 ﻿using AutoMapper;
+using EntityLayer.ViewModels.Coiffeur;
+using EntityLayer.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +13,8 @@ namespace ServiceLayer.AutoMapper.Coiffeur
     {
         public CoiffeurProfile()
         {
-            //CreateMap<CoiffeurViewModel,Coiffeur>().ReverseMap();
+            CreateMap<AddCoiffeurViewModel, EntityLayer.Entities.Coiffeur>().ReverseMap();
+            CreateMap<GetCoiffeurViewModel, EntityLayer.Entities.Coiffeur>().ReverseMap();
         }
     }
 }
